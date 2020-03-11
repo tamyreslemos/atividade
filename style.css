@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html{
+	overflow: hidden;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background-color: #568CA3;
+	margin-top: 20px;
+}
+
+.fotosobre{
+	border-radius: 100%;
+	margin: 40px;
+	max-width: 350px;
+
+}
+
+.sobre {
+	text-align: center;
+	color: #CFC7BF;
+}
+
+.icones a{
+	font-size: 25px;
+	color: #F3EEE8;
+	padding: 12px;
+	margin: 10px;
+	border-style: dotted;
+	border-radius: 30px;
+}
+
+.icones a:hover{
+	color: #FD918B;
+}
+
+
+#link-projeto{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+#link-projeto a{
+	color: #F3EEE8;
+	padding: 10px;
+	margin: 15px;
+	border-style: dotted;
+	border-radius: 30px;
+}
+
+#link-projeto a:hover{
+	color: #FD918B;
+}
+
+#motivacional {
+	color: #CFC7BF;
+	font-size: 15px;
+	margin-top: 20px;
+}
